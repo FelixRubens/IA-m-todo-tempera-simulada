@@ -1,15 +1,16 @@
-# IA-metodo-tempera-simulada
-Artifício de IA implementado para resolver o puzzle das 8 peças
+# Simulated annealing - AI
+
+AI device implemented to solve the 8 piece puzzle
 
 
-A fins de teste, na função main são geradas 100 entradas, possiveis estados iniciais para o código tentar resolver.
+The test functions in the main function are generated 100 inputs, possible states start for the solve code.
 
-Sobre as Heuristicas
+About How Heuristics
 
-A heuristica 1 leva como parametro o numero de peças que estão nos lugares errados antes de tomar a decisção do proximo passo.
+Heuristic 1 takes as a parameter the number of pieces that are in the wrong places before making a decision on the next step.
 
-A heuristica 2 leva em consideração a somatora das distancias das peças nos lugares errados e seus respectivos lugares corretos.
+Heuristic 2 takes into account the sum of the distances of the pieces in the wrong places and their respective correct places.
 
 
-Vale lembrar, que o algoritimo com esse metodo leva sempre e um melhor resultado possível, um máximo local, e não garante a solução
-do puzzle!
+Remember: that the algorithm with this method always leads to the best possible result, a local maximum, and does not guarantee a solution.
+make the puzzle!
